@@ -1,4 +1,4 @@
-#Yii Admin
+# Yii Admin
 
 Admin panel based on [Yii 2](http://www.yiiframework.com/) and MongoDb.
 
@@ -12,6 +12,8 @@ Basic features:
 - In-line editing of text
 - Seach by any field, sort by almost all fields
 - Autocomplete for category tree when filter or add categories
+
+![preview](http://i.imgur.com/oDZEU4N.png)
 
 ## Installation
 
