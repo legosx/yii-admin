@@ -1,4 +1,4 @@
-#Yii Admin
+# Yii Admin
 
 Admin panel based on [Yii 2](http://www.yiiframework.com/) and MongoDb.
 
@@ -11,7 +11,9 @@ Basic features:
 - Poster operations: upload, download, remove
 - In-line editing of text
 - Seach by any field, sort by almost all fields
-- Autocomplete for category tree when filter or add categories
+- Autocomplete for category tree when filter categories or add categories
+
+![preview](http://i.imgur.com/J0PLduD.png)
 
 ## Installation
 
