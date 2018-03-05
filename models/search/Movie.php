@@ -36,13 +36,10 @@ class Movie extends MovieModel
         ]);
 
         if ($category = Arr::get($params, 'Movie.category')) {
-            $parts = explode(' / ', $category);
+            $parts = array_filter(explode(' / ', $category));
 
             $movies = [];
             foreach ($parts as $i => $part) {
-                if (!$part) {
-                    continue;
-                }
                 $movies = MovieModel::find()->where(array_filter([
                     '_id' => $movies ? ['$in' => $movies] : null,
                     'title' => $part,
